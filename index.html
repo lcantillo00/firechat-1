@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Firebase Chat</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <div id="login-screen" class="login-screen1">
+            <div class="chat">
+                <h1>Chat</h1>
+                <img src="logo.png" class="logo">
+            </div>
+            <div class="button-container">
+                <div class="user">
+                    <p class="text">Ussername</p>
+                    <input type="text" name="USERNAME" value="lcantillo@fvi.edu">
+                </div>
+                <div class="pass">
+                    <p class="text">Password</p>
+                    <input type="password" name="" value="lololo">
+                </div>
+
+                <button id="login-btn" class="btn-fbk">Login with Facebook</button>
+                <button  class="btn-twiter">Login with Twitter</button>
+            </div>
+
+
+        <div class="footer">
+            <p>Not registered? Create Account</p>
+        </div>
+        </div>
+        <div class="chatscreen">
+                <div id="chat-screen">
+                  <div id="messages"></div>
+                  <div class="input-container">
+                      <input type="text" id="message-input" class= "mess-input">
+
+                  </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.6.5/firebase.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
